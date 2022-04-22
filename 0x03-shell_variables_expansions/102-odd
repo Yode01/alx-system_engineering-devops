@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/bin/bash
 paste -d, - - | cut -d, -f1
+=======
+#!/bin/bash
+perl -lne 'print if $. % 2 == 1'
+>>>>>>> 45b52ed3c4d49fb2a7a429ff2d6ceb10cd0cd18d

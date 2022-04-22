@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0x03 Shell, init files, variables and expansions
 
 ## Resources
@@ -56,3 +57,6 @@
     - `WATER` is in base `water`.
     - `STIR` is in base `stir`.
     - The result should be in base `behlnort`.
+=======
+Task 0 -- <0> -- This script creates an alias named 'ls', with value 'rm *' 
+>>>>>>> 45b52ed3c4d49fb2a7a429ff2d6ceb10cd0cd18d

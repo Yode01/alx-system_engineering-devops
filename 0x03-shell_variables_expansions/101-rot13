@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/bin/bash
 tr 'A-Za-z' 'N-ZA-Mn-za-m'
+=======
+#!/bin/bash
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '` 
+>>>>>>> 45b52ed3c4d49fb2a7a429ff2d6ceb10cd0cd18d
